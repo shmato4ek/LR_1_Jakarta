@@ -1,0 +1,58 @@
+.main-page-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+.header-button,
+    #helen-button #oleksandr-button #max-button{
+        height: 3rem;
+        width: 12rem;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: white;
+        border: none;
+    }
+
+.image-container{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.image{
+    height: 10rem;
+}
+
+.image-text{
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-width: bold;
+    margin-top: 1rem;
+}
+
+
+
+.header-button:hover{
+    background-color: #c0c0c0;
+    transition: 0.5s;
+}
+
+.text{
+    font-weight: bold;
+}
